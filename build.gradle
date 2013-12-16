@@ -37,3 +37,7 @@ android {
     compile fileTree(dir: 'libs', include: '*.jar')    
   }
 }
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '1.8'    
+}
